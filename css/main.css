@@ -1,7 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Sarala:wght@400;700&display=swap');
 
 /* Set custom variables here */
+:root {
+  
+  --bs-body-bg: #F6F3ED;
+  --bs-body-bg-rgb: 246, 243, 237;
 
+  --bs-primary: #2e483a;
+  --bs-primary-rgb: 46, 72, 58;
+
+  --bs-light: #f6f3ed;
+  --bs-light-rgb: 246, 243, 237;
+
+  .text-light {
+    --bs-body-color: var(--bs-light);
+  }
+
+
+  .btn-primary {
+    --bs-btn-color: var(--bs-light);
+    --bs-btn-bg: var(--bs-primary);
+    --bs-btn-border-color: var(--bs-primary);
+    /* --bs-btn-hover-color: var(--bs-body-bg);
+    --bs-btn-hover-bg: var(--bs-primary);
+    --bs-btn-hover-border-color: #0a58ca;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0a58ca;
+    --bs-btn-active-border-color: #0a53be;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0d6efd;
+    --bs-btn-disabled-border-color: #0d6efd; */
+  }
+}
 
 
 
